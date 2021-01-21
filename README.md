@@ -1,22 +1,2 @@
-#include <iostream>
-using namespace std;
-
-
-int main(){
-
-     string name;
-
-     cout << "Enter Name: " << endl;
-     getline(cin, name);
-
-     if(name.length() >= 20){
-        cout << "Name too long";
-     }
-    else{
-        cout << "Hello " << name;
-    }
-
-    return 0;
-}
-
+#Data entry validation using c++
 
